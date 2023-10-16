@@ -1,13 +1,14 @@
-def lerArq ():
+def lerArq():
     with open("problema1.txt", 'r') as arquivo:
         restricoes = arquivo.readline()
-        restricoes = [restricoes.split()]
-        for x in restricoes:
-            int(x)
-        print(restricoes)
+        restricoes = restricoes.split()
+        rest = list(map(int, restricoes))
+        print(rest)
+
+
 
 def opcao1():#função para fim de teste
-    print("Você escolheu a Opção 1")
+    lerArq()
 
 def opcao2():#função para fim de testeaaa
     print("Você escolheu a Opção 2")
