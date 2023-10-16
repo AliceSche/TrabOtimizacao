@@ -1,7 +1,7 @@
 def opcao1():#função para fim de teste
     print("Você escolheu a Opção 1")
 
-def opcao2():#função para fim de teste
+def opcao2():#função para fim de testeaaa
     print("Você escolheu a Opção 2")
 
 def main():#Menu
