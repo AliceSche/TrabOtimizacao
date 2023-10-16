@@ -1,3 +1,10 @@
+def lerarq ():
+    with open('problema1.txt', 'r') as arquivo:
+        texto = arquivo.readline()
+        primeira_linha = arquivo.readline()
+        vetor = [primeira_linha.split()]
+        print(vetor)
+
 def opcao1():#função para fim de teste
     print("Você escolheu a Opção 1")
 
