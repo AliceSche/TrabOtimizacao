@@ -2,8 +2,20 @@ def lerArq():
     with open("problema1.txt", 'r') as arquivo:
         restricoes = arquivo.readline()
         restricoes = restricoes.split()
-        rest = list(map(int, restricoes))
-        print(rest)
+        informacoes = list(map(int, restricoes))
+        print(informacoes)
+        segundaLinha = arquivo.readline()
+        segundaLinha = segundaLinha.split()
+        expressao = list(map(float, segundaLinha))
+        print(expressao)
+        matriz = list()
+        for i in range(informacoes[0]-1):
+            x = arquivo.readline()
+            x = list(x.split())
+            matriz.append(x)
+        print(matriz)
+        
+        
 
 
 
